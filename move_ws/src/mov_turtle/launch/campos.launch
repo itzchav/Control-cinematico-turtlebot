@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="arg1" default="0.0" />
+    <arg name="arg2" default="0.0" />
+
+    <arg name="bags_directory" value="home"/>
+
+    
+    <!-- Record bag -->
+    <node name="bag_record" pkg="rosbag" type="record" 
+        args="record  -o mov_ws/src/move_turtle/launch /odom "/>
+    <node name="campos" pkg="mov_turtle" type="Campos_Potenciales_arg.py" args="$(arg arg1) $(arg arg2)" output="screen"/>
+</launch>
