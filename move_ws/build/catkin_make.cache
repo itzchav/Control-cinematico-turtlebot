@@ -1,0 +1,2 @@
+joystick_teleop:mov_turtle:prm_slam:rplidar_ros:turtle_sim
+-DCATKIN_DEVEL_PREFIX=/home/karla/move_ws/devel -DCMAKE_INSTALL_PREFIX=/home/karla/move_ws/install -G Unix Makefiles
