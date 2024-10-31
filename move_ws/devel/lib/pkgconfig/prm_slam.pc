@@ -1,0 +1,8 @@
+prefix=/home/karla/move_ws/devel
+
+Name: prm_slam
+Description: Description of prm_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/karla/move_ws/devel
+
+Name: mov_turtle
+Description: Description of mov_turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/karla/move_ws/devel
+
+Name: turtle_sim
+Description: Description of turtle_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
