@@ -32,8 +32,9 @@ rosrun mov_turtle control_trayectoria_recta.py 1 2 10 # x=1 y=2 t=10 Estos param
 ```
 
 ### Control cinemático de trayectoria Lemniscata
+
+```shell
 cd ~/move_ws
-
 source ./devel/setup.bash
-
 rosrun mov_turtle control_trayectoria_cata_ph.py
+```
